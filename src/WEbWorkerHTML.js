@@ -15,7 +15,7 @@ class WebWorkerHTML extends React.Component {
   fetchLoopingData = () => {
     console.log('Im fetchLooping Data');
 
-    this.workerObj.postMessage('Fetch Users');
+    this.workerObj.postMessage('start worker');
     this.workerObj.addEventListener('message', (e) => {
       console.log('service-worker-event', e);
       document.querySelector('#webworker').innerHTML += e.data;
