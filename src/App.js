@@ -1,4 +1,4 @@
-import WebWorkerHTML from './WEbWorker';
+import WebWorkerHTML from './WEbWorkerHTML';
 import React from 'react';
 import './App.css';
 
