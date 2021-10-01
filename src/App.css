@@ -1,0 +1,22 @@
+div#test {
+  width: 150px;
+  height: 150px;
+  background-color: #ff0000;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+div#test div {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+div#left {
+  background-color: #00ff00;
+}
+
+div#right {
+  background-color: #0000ff;
+}
